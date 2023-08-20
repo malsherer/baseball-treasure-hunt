@@ -1,0 +1,44 @@
+h1, h2 {
+    color: gold;
+    text-align: center;
+}
+.line {
+    text-align: center; 
+    color: white; 
+    justify-content: center;
+    list-style-type: none;
+}
+#image {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+#box {
+    border-style: inset;
+    border-color: gold;
+    border-width: 4px;
+    width: 350px;
+    height: 350px;
+}
+td {
+    text-align: center;
+    font-size: 100px;
+    background-color: white;
+}
+#grid {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+body {
+    background-color: rgba(48, 26, 8, 0.918);
+}
+.rgame {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+}

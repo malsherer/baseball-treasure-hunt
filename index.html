@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Treasure Hunt</title>
+    <link rel="icon" type="image/x-icon"
+    href="https://clipart-library.com/images_k/baseball-clipart-transparent-background/baseball-clipart-transparent-background-4.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Baseball Treasure Hunt</h1>
+    <h2>Don't strikeout!</h2>
+    <h2>Rules:</h2>
+    <ol class="line">
+        <li>1. Click the strike zones to reveal what's on the map</li>
+        <li>2. If you strikeout you lose</li>
+        <li>3. If you hit a home run you win</li>
+    </ol>
+    <img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvf6VoMcjGk6tNFUtPcHr6WkquKTO0qi6mTA&usqp=CAU" alt="cool baseball"/>
+    <div id="grid">
+        <table id="box" border="1px">
+            <tr>
+                <td id="0" onclick="emoji(0)">?</td>
+                <td id="1" onclick="emoji(1)">?</td>
+                <td id="2" onclick="emoji(2)">?</td>
+            </tr>
+            <tr>
+                <td id="3" onclick="emoji(3)">?</td>
+                <td id="4" onclick="emoji(4)">?</td>
+                <td id="5" onclick="emoji(5)">?</td>
+            </tr>
+            <tr>
+                <td id="6" onclick="emoji(6)">?</td>
+                <td id="7" onclick="emoji(7)">?</td>
+                <td id="8" onclick="emoji(8)">?</td>
+            </tr>
+        </table>
+    </div>
+    <div class="rgame">
+        <button type="button" onclick="location.reload()">Restart game</button>
+    </div>
+    <footer>&copy; Danny and Mal 
+        <a href="https://www.mlb.com/live-stream-games/subscribe" target="_blank">Another Baseball Treasure Hunt</a>
+    </footer>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
